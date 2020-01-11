@@ -1,0 +1,37 @@
+#include<stdio.h>
+#include<conio.h>
+int main(){
+//char str[] = "dataStructureUsingC";
+//printf("%-0.3s",str);
+//printf("%-1000.3s",str);
+//printf("%-100.3s",str);
+
+//char str2[5]="hell";
+//scanf("%s",str2);
+//printf("%s",str2);
+
+// str3[100];
+
+//gets(str3);
+//puts(str3);
+
+int i=0;
+char ch;
+char str[100];
+ch = getchar();
+putchar(ch);
+while(ch != '*'){
+ch = getchar();	
+str[i]=ch;
+i++;
+}
+str[i] = '\0';
+puts(str);
+printf("hello");
+i=0;
+printf("%c",str[i]);
+while(str[i]!='\0'){
+	putchar(str[i]);
+	i++;
+
+}}
